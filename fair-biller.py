@@ -28,7 +28,10 @@ def timestampIsValid (timestamp_string):
 # Represent timestamp as integer
 def get_sec(timestamp_string):
     h,m,s = timestamp_string.split(':')
-    return int(h + m + s)
+    h = int(h) * 3600
+    m = int(m) * 60
+    s = int(s)
+    return h + m + s
 
 # Get the timestamp of the first line and the last line in the log.
 sessionsLogList= list(sessionsLog)
