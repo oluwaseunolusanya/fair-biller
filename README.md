@@ -28,7 +28,7 @@ Tools/Technologies - Python, VSCode, Git, GitHub and GitBash.
 ## Installation 
 1. Install Python2.7 on your local machine.
 2. Clone the repository to a directory of choice and navigate to the directory using terminal.
-3. Run 'python2.7 fair-biller.py session-log' at the prompt. 
+3. Run 'python2.7 fair-biller.py session.log' at the prompt. 
 
 ## Usage
 1. See step 3 of the installation instructions. 
@@ -54,14 +54,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 8. You can then pull the main to your fork and continue contributing.
 
 ## Tests
-1. Open 'session-log' file.
+1. Open 'session.log' file.
 2. Add more entries to the content. For example,
    - 15:03:37 ADE End
    - 15:04:05 ALICE99 End
    - 15:44:23 SEUN End
    - 16:04:41 CHARLIE Start
 3. Save and close the file
-4. Type 'python2.7 fair-biller.py session-log' at the terminal.
+4. Type 'python2.7 fair-biller.py session.log' at the terminal.
 
 ## Questions
 Please engage with me on https://github.com/https://github.com/oluwaseunolusanya if you have questions about the project. You can also reach me at oluwaseun_olusanya@yahoo.com.
