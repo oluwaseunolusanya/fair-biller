@@ -42,7 +42,7 @@ lastLine = sessionsLogList[-1]
 lastLineWords = lastLine.split()
 lastTimestamp = get_sec(lastLineWords[0])
 
-# Create an dictionary to store sessions used per user.
+# Create a dictionary to store sessions used per user.
 for line in sessionsLogList:
     line = line.rstrip()
     words = line.split()
