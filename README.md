@@ -2,7 +2,7 @@
 
 ## Description                       
 A command-line program that helps a hosted application provider generate fair billing for its customers' use of it application depending on the duration of sessions.
-The program achieves analyses and processes usage data contained in a log file and generates a report with the details below:
+The program analyses and processes usage data contained in a log file and generates a report with the details below:
     - Name of user
     - Number of sessions used
     - Total duratation
